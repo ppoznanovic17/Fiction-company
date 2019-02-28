@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', self-serif;
+    line-height: 1.4;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: 0.75rem 0;
+}
+
+/* UTILITYYYY *****************/
+.klasicanTekst{
+    color: #93cb52;
+}
+.h-1{
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.glavniTekst{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    display: inline-block;
+    color: white;
+    background: #93cb52;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background: #78a434;
+}
+
+.btnDark{
+    background: #333;
+    color: white;
+}
+
+/* NAVBAR *****************************************************************************/
+#navbar{
+    position: sticky;
+    top:0;
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+
+#navbar ul li a{
+    color:#fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+    transition: 300ms;
+}
+
+#navbar ul li a:hover{
+    background: #93cb52;
+    border-radius: 5px;
+}
+
+/* pRIKAZ U HEDERU ******************************************************************/
+#heder{
+    background:  url('assets/showcase.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+}
+
+.kontentHeder{
+ display: flex;
+flex-direction: column;
+text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+
+  /*  position: absolute;*/
+
+    background: rgba(0,0,0,0.5);
+}
