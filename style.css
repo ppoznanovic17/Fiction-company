@@ -36,6 +36,7 @@ p {
     color: #f4f4f4;
     background-color: #333;
 }
+bg-
 
 .h-1 {
     font-size: 4rem;
@@ -76,7 +77,25 @@ p {
 .btnDark {
     background: #333;
     color: white;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
 }
+
+.btnDark:hover{
+    color: #333;
+    background-color: white;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.bg-primary{
+    background-color: #93cb52;
+    color: #fff;
+}
+
+
 
 .kontejner {
     max-width: 1200px;
@@ -228,4 +247,38 @@ p {
     margin: auto;
     width: 60%;
 }
+/* kontakt*********************************************************************/
+.kontaktForma{
+   display: flex;
+}
+.kontejnerForme{
+    text-align: left;
+}
 
+#con .kontaktForma div form div{
+    text-align: left;
+}
+
+#con  label{
+    display: block;
+}
+
+#con input,
+#con textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.kontaktForma .kontejnerForme,
+.kontaktForma  .mapa{
+    flex:1;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+footer p{
+    padding: 0.5rem 0;
+    margin: 0;
+    height: 100%;
+}
