@@ -1,41 +1,57 @@
-
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     font-family: 'Roboto', self-serif;
     line-height: 1.4;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-p{
+p {
     margin: 0.75rem 0;
 }
 
 /* UTILITYYYY *****************/
-.klasicanTekst{
+.klasicanTekst {
     color: #93cb52;
 }
-.h-1{
+
+.centriraj{
+ text-align: center;
+}
+
+.h-1 {
     font-size: 4rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
 }
 
-.glavniTekst{
+.h-2{
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.h-3{
+ font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.glavniTekst {
     font-size: 1.3rem;
     margin-bottom: 2rem;
 }
 
-.btn{
+.btn {
     display: inline-block;
     color: white;
     background: #93cb52;
@@ -44,19 +60,30 @@ p{
     border-radius: 5px;
 }
 
-.btn:hover{
+.btn:hover {
     background: #78a434;
 }
 
-.btnDark{
+.btnDark {
     background: #333;
     color: white;
 }
 
+.kontejner {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+py-1{padding: 1.5rem 0;}
+py-2{padding: 2rem 0;}
+py-3{padding: 3rem 0;}
+
 /* NAVBAR *****************************************************************************/
-#navbar{
+#navbar {
     position: sticky;
-    top:0;
+    top: 0;
     background: #333;
     color: #fff;
     display: flex;
@@ -65,45 +92,64 @@ p{
     padding: 1rem;
 }
 
-#navbar ul{
+#navbar ul {
     display: flex;
     align-items: center;
     list-style: none;
 
 }
 
-
-#navbar ul li a{
-    color:#fff;
+#navbar ul li a {
+    color: #fff;
     padding: 0.75rem;
     margin: 0 0.25rem;
     transition: 300ms;
 }
 
-#navbar ul li a:hover{
+#navbar ul li a:hover {
     background: #93cb52;
     border-radius: 5px;
 }
 
 /* pRIKAZ U HEDERU ******************************************************************/
-#heder{
-    background:  url('assets/showcase.jpg');
+#heder {
+    background: url('assets/showcase.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     height: 100vh;
 }
 
-.kontentHeder{
- display: flex;
-flex-direction: column;
-text-align: center;
+.kontentHeder {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     justify-content: center;
     align-items: center;
     height: 100%;
     padding: 0 2rem;
 
-  /*  position: absolute;*/
+    /*  position: absolute;*/
 
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* sta mi radimo*********************************************************************/
+.delovi{
+    display: flex;
+
+}
+
+.deo{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+
+
+}
+
+#ko .delovi div i{
+    background: #93db62;
+    padding: 1rem;
+    border-radius: 50%;
 }
