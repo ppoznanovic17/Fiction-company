@@ -1,0 +1,23 @@
+/* Align icon to left*/
+#sta .delovi .deo{
+    display: flex;
+   text-align: left;
+}
+
+#sta .delovi .deo i{
+    margin-right: 1.3rem;
+    align-self: center;
+   margin-left: 1.2rem;
+    padding: auto;
+}
+
+
+#sta .delovi .deo div{
+    height: 100%;
+    vertical-align: middle;
+}
+
+#con .kontaktForma .mapa{
+    flex: 2;
+
+}

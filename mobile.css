@@ -1,0 +1,48 @@
+#sta .delovi{
+    display: block;
+    padding: 1reml
+}
+
+/* Align icon to left*/
+#sta .delovi .deo{
+    display: flex;
+   text-align: left;
+}
+
+@media(max-width: 500px){
+    #navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    #navbar .logo{
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+    #ko{
+        display: block;
+    }
+    #ko .slika{
+        display: none;
+    }
+
+    #klijenti .kontejner h2{
+        font-size: 1.2rem;
+    }
+    #klijenti .delovi img{
+        width: 80%;
+    }
+    #klijenti .deo{
+        margin: 0;
+        padding: 0;
+    }
+    #klijenti .delovi div:last-child{
+        display: none;
+    }
+    #con .kontaktForma{
+        flex-direction: column;
+    }
+    #con .mapa{
+        height: 300px;
+        border: 4px solid black;
+    }
+}
